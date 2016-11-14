@@ -1,0 +1,2 @@
+# ElasticImageView
+非常方便的实现类似win8磁贴的点击效果
