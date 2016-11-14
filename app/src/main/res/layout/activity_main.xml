@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.app.fan.elasticimageview.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <com.app.fan.elastic_imageview.ElasticImageView
+            android:id="@+id/e_img"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/test_01"
+            app:scalevalue="0.3" />
+
+        <com.app.fan.elastic_imageview.ElasticImageView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/test_01"
+            app:scalevalue="0.3" />
+
+    </LinearLayout>
+
+    <com.app.fan.elastic_imageview.ElasticImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="2dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/test_01"
+        app:scalevalue="0.3" />
+
+    <com.app.fan.elastic_imageview.ElasticImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/test_01"
+        app:scalevalue="0.3" />
+
+</LinearLayout>
