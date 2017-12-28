@@ -1,16 +1,17 @@
 # ElasticImageView
-非常方便的实现类似win8磁贴的点击效果
-####效果预览
+##### 非常方便的实现类似win8磁贴的点击效果
+#### 效果预览
+
 <img src="shortcut/img.gif"  width="300" height="486" />
 
-###Gradle
+### Gradle
 ```
 dependencies {
     compile 'com.app.fan:elastic-imageview:1.0.1'
 }
 ```
 
-###使用方法
+### 使用方法
 添加Gradle依赖，布局中引入
 ```
  <com.app.fan.elastic_imageview.ElasticImageView
